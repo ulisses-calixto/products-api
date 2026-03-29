@@ -35,8 +35,11 @@ API simples para gerenciamento de produtos, construída com FastAPI, PostgreSQL 
 ### Portas
 
 - **Health Check**: `GET /health`
+![healthckeck](./assets/img/healthcheck.png)
 - **Criar Produto**: `POST /produtos/`
+![postproducts](./assets/img/postproducts.png)
 - **Listar os Produtos**: `GET /produtos/?skip=0&limit=10`
+![postproducts](./assets/img/getproducts.png)
 
 ## Estrutura do Projeto
 
